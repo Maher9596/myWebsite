@@ -49,9 +49,16 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 620px) {
   .icons{
     flex-direction: column;
+  }
+  .text {
+    /* width: fit-content; */
+    font-size: small;
+  }
+  .container{
+    left: 10%;
   }
   }
 
