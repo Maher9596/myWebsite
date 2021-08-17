@@ -1,1 +1,1 @@
-almusallami.ntlify.app
+www.almusallami.netlify.app
