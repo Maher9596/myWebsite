@@ -20,11 +20,11 @@ function App() {
           <p id="description">I'm a software developer from Oman. Happy to connect</p>
         </div>
         <div className="bottom">
-         <p><a href="https://twitter.com/Almsalmi_" onMouseOver={MouseIn} onMouseOut={MouseOut}>Twitter</a><TiSocialTwitter size="30px" /></p>
-         <p><a href="https://www.linkedin.com/in/maher-almusallami/" onMouseOver={MouseIn} onMouseOut={MouseOut}>Linkedin</a><TiSocialLinkedin size="30px" /></p>
-         <p><a href="https://github.com/Maher9596" onMouseOver={MouseIn} onMouseOut={MouseOut}>Github</a><TiSocialGithub size="30px" /></p>
-         <p><a href="mailto:muhran777@gmail.com" onMouseOver={MouseIn} onMouseOut={MouseOut}>Email</a><HiOutlineMail size="30px" /></p>
-         <p><a href="https://dev.to/maher9596" onMouseOver={MouseIn} onMouseOut={MouseOut}>Blogs</a><FaDev size="30px" /></p>
+         <p><a href="https://twitter.com/Almsalmi_" onMouseOver={MouseIn} onMouseOut={MouseOut}>Twitter</a></p>
+         <p><a href="https://www.linkedin.com/in/maher-almusallami/" onMouseOver={MouseIn} onMouseOut={MouseOut}>Linkedin</a></p>
+         <p><a href="https://github.com/Maher9596" onMouseOver={MouseIn} onMouseOut={MouseOut}>Github</a></p>
+         <p><a href="mailto:muhran777@gmail.com" onMouseOver={MouseIn} onMouseOut={MouseOut}>Email</a></p>
+         <p><a href="https://dev.to/maher9596" onMouseOver={MouseIn} onMouseOut={MouseOut}>Blogs</a></p>
         </div>
       </div>
   );
