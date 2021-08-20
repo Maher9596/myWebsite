@@ -1,4 +1,7 @@
 import './App.css';
+import { TiSocialTwitter, TiSocialLinkedin, TiSocialGithub } from "react-icons/ti";
+import { HiOutlineMail } from 'react-icons/hi'
+import { FaDev } from 'react-icons/fa'
 
 function App() {
 
@@ -7,26 +10,23 @@ function App() {
   }
 
   const MouseOut = (e) => {
-    e.target.style.color="aliceblue";
+    e.target.style.color="antiquewhite"
   }
 
   return (
-    <div className="app">
       <div className="container">
-        {/* <img src={pic} width="300px" height="100px" /> */}
-        <div className="text">
+        <div className="top">
           <h1 id="name">Hi, I'm <span id="maher">Maher Al Musallami</span></h1>
           <p id="description">I'm a software developer from Oman. Happy to connect</p>
         </div>
-        <div className="icons">
-          <a href="https://twitter.com/Almsalmi_" onMouseOver={MouseIn} onMouseOut={MouseOut}><p>Twitter</p></a> 
-          <a href="https://www.linkedin.com/in/maher-almusallami/" onMouseOver={MouseIn} onMouseOut={MouseOut}><p>Linkedin</p></a>
-          <a href="https://github.com/Maher9596" onMouseOver={MouseIn} onMouseOut={MouseOut}><p>Github</p></a>
-          <a href="mailto:muhran777@gmail.com" onMouseOver={MouseIn} onMouseOut={MouseOut}><p>Email</p></a>
-          <a href="https://dev.to/maher9596" onMouseOver={MouseIn} onMouseOut={MouseOut}><p>Blogs</p></a>
+        <div className="bottom">
+         <p><a href="https://twitter.com/Almsalmi_" onMouseOver={MouseIn} onMouseOut={MouseOut}>Twitter</a><TiSocialTwitter size="30px" /></p>
+         <p><a href="https://www.linkedin.com/in/maher-almusallami/" onMouseOver={MouseIn} onMouseOut={MouseOut}>Linkedin</a><TiSocialLinkedin size="30px" /></p>
+         <p><a href="https://github.com/Maher9596" onMouseOver={MouseIn} onMouseOut={MouseOut}>Github</a><TiSocialGithub size="30px" /></p>
+         <p><a href="mailto:muhran777@gmail.com" onMouseOver={MouseIn} onMouseOut={MouseOut}>Email</a><HiOutlineMail size="30px" /></p>
+         <p><a href="https://dev.to/maher9596" onMouseOver={MouseIn} onMouseOut={MouseOut}>Blogs</a><FaDev size="30px" /></p>
         </div>
       </div>
-    </div>
   );
 }
 
